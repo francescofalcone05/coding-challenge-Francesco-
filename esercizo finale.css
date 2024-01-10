@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* sfondo */
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* sfondo al testo */
+.contenitore{
+  background:black;
+  opacity: 0.5;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left:  300px;
+  margin-right: 280px;
+  border-radius: 20px;
+  height: 550px;
+}
+
+/* logo */
+img{
+  width: 150px;
+  height: 40px
+  align: center;
+  margin-top: 30px;
+
+}
+
+/* titolo */
+h2{
+  color: limegreen;
+}
+
+/* barra bottoni */
+nav{
+  background-color: limegreen;
+  border-radius: 2px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+nav>button{
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* monopattino n1 */
+.monopattini{
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+/* colore testo */
+main{
+  color: white;
+}
+
+/* bordo checkbox  */
+.select{
+  border-radius: 1px;
+}
+
+/* nome monopattino */
+.nome{
+  color: white;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+/* via e batteria */
+.via{
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+/* stato batteria */
+.stato-batteria{
+  background-color: orange;
+  border-color: orange;
+  border-radius: 3px;
+  margin-top: 5px
+  margin-left: 40px;
+  margin-right: 700px;
+  height: 18px;
+
+}
+
+.stato-batteria2{
+  background-color: limegreen;
+  border-color: limegreen;
+  border-radius: 3px;
+  margin-top: 5px
+  margin-left: 40px;
+  margin-right: 500px;
+  height: 18px;
+}
+
+.stato-batteria3{
+  background-color: red;
+  border-color: red;
+  border-radius: 3px;
+  margin-top: 5px
+  margin-left: 40px;
+  margin-right: 800px;
+  height: 18px;
+}
